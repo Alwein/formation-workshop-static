@@ -5,8 +5,19 @@ header {
     flex-direction: column;
 }
 
-nav {
+nav > ul {
     display: flex;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+nav > ul > li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+main {
+    padding-left: 20rem;
+    padding-right: 20rem;
 }
 
 h1 {
