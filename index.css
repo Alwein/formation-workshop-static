@@ -23,3 +23,7 @@ main {
 h1 {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+hr.solid {
+    border-top: 3px solid #000000;
+  }
